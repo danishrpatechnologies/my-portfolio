@@ -99,12 +99,12 @@ const ClassCade: React.FC = () => {
           <div className="links-study">
             <a target='blank' className='mobile-btn' href="https://www.figma.com/proto/cJ3VsbOLJa0Tpxs25QBQkY/Arcade-Program?node-id=25-6031&p=f&t=EYQBgBQQIlhzzInc-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=25%3A6031&show-proto-sidebar=1">Checkout Student figma URL
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" width={18} height={18} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-                <path strokeLinecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
               </svg>
             </a>
             <a target='blank' href="https://www.figma.com/proto/cJ3VsbOLJa0Tpxs25QBQkY/Arcade-Program?node-id=2352-7569&p=f&t=EYQBgBQQIlhzzInc-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2352%3A7569&show-proto-sidebar=1">Checkout Teacher figma URL
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" width={18} height={18} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-                <path strokeLinecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
               </svg>
             </a>
             <img src="/images/classcade-product-img.png" alt="" />

@@ -67,6 +67,7 @@ const Header: React.FC = () => {
       name: "Case Study",
       href: "/case-study",
       subLinks: [
+        { name: "Squash Analytics", href: "/case-study/squash-analytics" },
         { name: "Alsco", href: "/case-study/alsco" },
         { name: "Moneyspot", href: "/case-study/moneyspot" },
         { name: "ClassCade", href: "/case-study/classcade" },

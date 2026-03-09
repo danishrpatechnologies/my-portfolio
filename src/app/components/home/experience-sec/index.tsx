@@ -2,12 +2,19 @@ import React from 'react';
 
 const ExperienceSec = () => {
     const experiences = [
+         {
+            year: "2026+",
+            title: "UI/UX Designer / Frontend Developer",
+            company: "RPA Technologies",
+            type: "Fulltime",
+            description: "Designed AI-enhanced UI, built responsive web applications, and created Power BI dashboards for data-driven insights while maintaining scalable design systems."
+        },
         {
-            year: "2023+",
+            year: "2023",
             title: "UI/UX Developer",
             company: "MindRuby Technologies",
             type: "Fulltime",
-            description: "Designed AI-enhanced user interfaces, developed responsive web pages, implemented AI-driven personalization, and maintained scalable design systems."
+            description: "Designed AI-powered UI, built responsive web pages, implemented personalization features, and maintained scalable design systems."
         },
         {
             year: "2022",
@@ -47,15 +54,6 @@ const ExperienceSec = () => {
                                     {index < experiences.length && (
                                         <div className={`absolute left-0 top-3 w-px ${index < experiences.length - 1 ? 'h-40' : 'h-30'} bg-softGray`}></div>
                                     )}
-
-                                    <div className="no-print absolute left-0 top-0 transform -translate-x-1/2">
-                                        <div className={`no-print w-3.5 h-3.5 rounded-full border-1 bg-white flex items-center justify-center ${index === 1 ? 'border-primary' : 'border-black'
-                                            }`}>
-                                            {index === 1 && (
-                                                <div className="w-1.5 h-1.5 rounded-full bg-primary"></div>
-                                            )}
-                                        </div>
-                                    </div>
 
                                     <div className="pl-4 lg:pl-7">
                                         <div className="flex items-center gap-2 mb-1">

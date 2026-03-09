@@ -22,6 +22,32 @@ const CaseStudies: React.FC = () => {
 
         {/* Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+          {/* Squash Analytics */}
+<div className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transform transition-all duration-300 overflow-hidden border border-gray-100 dark:border-gray-800">
+  <Link href="/case-study/squash-analytics">
+    <div className="overflow-hidden">
+      <Image
+        src="/images/case-study/squash-analytics-mockup.png"
+        alt="Squash Analytics"
+        width={400}
+        height={200}
+        className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
+      />
+    </div>
+
+    <div className="p-6 text-center">
+      <h5 className="text-lg font-semibold mb-2 text-gray-900 dark:text-gray-100">
+        Squash Analytics Platform
+      </h5>
+
+      <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+        Analytics platform for improving squash training and match performance.
+      </p>
+    </div>
+  </Link>
+</div>
+
           {/* Alsco */}
           <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transform transition-all duration-300 overflow-hidden border border-gray-100 dark:border-gray-800">
             <Link href="/case-study/alsco">
@@ -138,29 +164,7 @@ const CaseStudies: React.FC = () => {
             </Link>
           </div>
 
-          {/* RMU Tracking */}
-          <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transform transition-all duration-300 overflow-hidden border border-gray-100 dark:border-gray-800">
-            <Link href="/case-study/rmu-tracking">
-              <div className="overflow-hidden">
-                <Image
-                  src="/images/case-study/rmu-mockup.png"
-                  alt="ClassCade"
-                  width={400}
-                  height={200}
-                  className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div className="p-6 text-center">
-                <h5 className="text-lg font-semibold mb-2 text-gray-900 dark:text-gray-100">
-                  EFSP RMU Tracking - Case Study
-                </h5>
-                <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-                  Modernizing United Way’s reporting platform with streamlined workflows, improved data accuracy, and a cleaner user experience.
-                </p>
-              </div>
-
-            </Link>
-          </div>
+         
         </div>
       </div>
     </section>

@@ -35,8 +35,7 @@ const AboutMe = () => {
 
               <div className="w-full lg:max-w-2xl flex-1">
                 <p>
-                  Creative UI/UX Designer and Front-End Specialist with 5+ years of experience crafting user-centered, AI-driven digital experiences. Skilled in Figma, Webflow, Angular, and React, with expertise in modern design systems, accessibility, and adaptive interfaces. Passionate about innovation, interaction design, and delivering collaborative, impactful user experiences.
-
+                  UI/UX Designer and Front-End Developer with 5+ years of experience designing and developing user-centered web applications. Proficient in Figma, Webflow, Angular, React, HTML5, CSS3, JavaScript, and Power BI. Experienced in creating responsive interfaces, scalable design systems, and interactive dashboards for data visualization. Strong knowledge of accessibility standards, modern UI frameworks, and performance optimization. Passionate about delivering intuitive user experiences and collaborating with cross-functional teams to build high-quality digital products.
                 </p>
 
                 <div className="grid grid-cols-3 py-10 xl:py-16 gap-5 border-b border-mistGray">

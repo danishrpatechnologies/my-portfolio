@@ -18,6 +18,33 @@ const CaseStudies: React.FC = () => {
 
         {/* Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        {/* Squash Analytics */}
+<div className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transform transition-all duration-300 overflow-hidden border border-gray-100 dark:border-gray-800">
+  <Link href="/case-study/squash-analytics">
+    <div className="overflow-hidden">
+      <Image
+        src="/images/case-study/squash-analytics-mockup.png"
+        alt="Squash Analytics"
+        width={400}
+        height={200}
+        className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
+      />
+    </div>
+
+    <div className="p-6 text-center">
+      <h5 className="text-lg font-semibold mb-2 text-gray-900 dark:text-gray-100">
+        Squash Analytics Platform
+      </h5>
+
+      <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+        A data-driven platform that analyzes squash performance metrics to help
+        coaches and players improve training strategies and match outcomes.
+      </p>
+    </div>
+  </Link>
+</div>
+
           {/* Alsco */}
           <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transform transition-all duration-300 overflow-hidden border border-gray-100 dark:border-gray-800">
             <Link href="/case-study/alsco">

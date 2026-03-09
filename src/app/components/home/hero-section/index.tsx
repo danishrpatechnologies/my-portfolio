@@ -33,10 +33,7 @@ const Index = () => {
             </div>
 
             <p className="text-secondary font-normal max-w-md xl:max-w-xl">
-              Creative UI/UX Designer with 5+ years of experience designing
-              user-centered, AI-enhanced digital experiences. I focus on
-              accessibility, innovation, and simplicity to craft seamless
-              interfaces.
+              UI/UX Designer and Front-End Developer with 5+ years of experience creating user-centered digital experiences. Skilled in Figma, React, Angular, HTML, CSS, JavaScript, and Power BI. Focused on accessible, responsive design and data-driven dashboards that deliver intuitive user experiences.
             </p>
 
             <button
