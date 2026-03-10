@@ -7,8 +7,8 @@ const Index = () => {
   // ✔ Download PDF File
   const handleDownloadPDF = () => {
     const link = document.createElement("a");
-    link.href = "/Danish Khan Resume.pdf";       
-    link.download = "Danish Khan Resume.pdf"; 
+    link.href = "/Danish Khan Resume.pdf";
+    link.download = "Danish Khan Resume.pdf";
     link.click();
   };
 
@@ -33,17 +33,21 @@ const Index = () => {
             </div>
 
             <p className="text-secondary font-normal max-w-md xl:max-w-xl">
-              UI/UX Designer and Front-End Developer with 5+ years of experience creating user-centered digital experiences. Skilled in Figma, React, Angular, HTML, CSS, JavaScript, and Power BI. Focused on accessible, responsive design and data-driven dashboards that deliver intuitive user experiences.
+              UI/UX Designer and Front-End Developer with 5+ years of experience
+              creating user-centered digital experiences. Skilled in Figma,
+              React, Angular, HTML, CSS, JavaScript, and Power BI. Focused on
+              accessible, responsive design and data-driven dashboards that
+              deliver intuitive user experiences.
             </p>
 
-            <button
+            {/* <button
               onClick={handleDownloadPDF}
               className="btn-primary relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-primary rounded-full group"
             >
               <span className="relative z-10 text-xl font-medium text-black group-hover:text-white transition-colors duration-300">
                 Download PDF Resume
               </span>
-            </button>
+            </button> */}
           </div>
 
           <Image
