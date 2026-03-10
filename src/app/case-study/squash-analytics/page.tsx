@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import React from 'react';
+import { motion } from "framer-motion";
+import React from "react";
 
 const SquashAnalytics: React.FC = () => {
   const fadeUp = {
@@ -9,13 +9,12 @@ const SquashAnalytics: React.FC = () => {
     visible: (i: number = 1) => ({
       opacity: 1,
       y: 0,
-      transition: { delay: i * 0.15, duration: 0.6, ease: 'easeOut' },
+      transition: { delay: i * 0.15, duration: 0.6, ease: "easeOut" },
     }),
   };
 
   return (
     <div className="bg-gray-50 text-gray-800 min-h-screen">
-
       {/* Hero Section */}
       <section className="case-study-banner">
         <motion.div
@@ -33,14 +32,16 @@ const SquashAnalytics: React.FC = () => {
           </motion.h2>
 
           <motion.p className="text-gray-600 mt-4 text-lg leading-relaxed">
-            Squash Analytics is a platform that collects and analyzes player performance data to provide insights into training patterns, match strategies, and performance gaps, enabling data-driven decisions for improved player development and match outcomes.
+            Squash Analytics is a platform that collects and analyzes player
+            performance data to provide insights into training patterns, match
+            strategies, and performance gaps, enabling data-driven decisions for
+            improved player development and match outcomes.
           </motion.p>
         </motion.div>
       </section>
 
       {/* Main Case Study Content */}
       <section className="max-w-5xl mx-auto px-6 py-10 space-y-12">
-
         {/* Role & Timeline */}
         <div className="grid md:grid-cols-2 gap-8">
           <div>
@@ -48,9 +49,9 @@ const SquashAnalytics: React.FC = () => {
             <p>
               <strong>UI/UX Designer & Data Analytics Specialist</strong>
               <br />
-              Responsible for dashboard UX design, data visualization,
-              analytics workflow planning, and designing user-friendly
-              performance insights for coaches and players.
+              Responsible for dashboard UX design, data visualization, analytics
+              workflow planning, and designing user-friendly performance
+              insights for coaches and players.
             </p>
           </div>
 
@@ -62,9 +63,7 @@ const SquashAnalytics: React.FC = () => {
 
         {/* Problem + Principles */}
         <div className="grid md:grid-cols-2 gap-8">
-
           <div className="contnt-study">
-
             {/* Problem Space */}
             <div>
               <h3 className="text-2xl font-semibold mb-2">Problem Space</h3>
@@ -73,11 +72,10 @@ const SquashAnalytics: React.FC = () => {
                 scattered performance data to evaluate match outcomes and
                 training effectiveness. This approach makes it difficult to
                 track player progress, identify performance gaps, and develop
-                data-driven training strategies.
-
-                The challenge was to build a centralized analytics platform
-                capable of collecting, processing, and visualizing performance
-                data in a clear and actionable format.
+                data-driven training strategies. The challenge was to build a
+                centralized analytics platform capable of collecting,
+                processing, and visualizing performance data in a clear and
+                actionable format.
               </p>
             </div>
 
@@ -111,7 +109,6 @@ const SquashAnalytics: React.FC = () => {
 
           {/* Figma Links + Image */}
           <div className="links-study">
-
             {/* <a
               target="_blank"
               className="mobile-btn"
@@ -125,15 +122,30 @@ const SquashAnalytics: React.FC = () => {
 
             <a
               target="_blank"
-              href="https://www.figma.com/design/mMPmxlRJ6pBFB47ddHeNMV/DESIGN-LIGHT-PREMIUM-PARA-DASHBOARD-NO-POWER-BI---by-Say.Valente--Community-?node-id=0-1"
+              href="https://www.figma.com/design/EaW4VkwyC72mNx5X26wDAb/Squash-Analytics?node-id=98612-20774&t=LmbS5NAcnCSw5esp-0"
             >
               Checkout Desktop Figma
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" width={18} height={18} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                width={18}
+                height={18}
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                />
               </svg>
             </a>
 
-            <img src="/images/squash-analytics-dashboard.png" alt="Squash Analytics Dashboard" />
+            <img
+              src="/images/squash-analytics-dashboard.png"
+              alt="Squash Analytics Dashboard"
+            />
             {/* <img src="/images/alsco-product-img.png" alt="" /> */}
           </div>
         </div>
@@ -141,7 +153,6 @@ const SquashAnalytics: React.FC = () => {
 
       {/* Features + Testing + Outcome */}
       <section className="max-w-5xl mx-auto px-6 space-y-12 pb-16">
-
         {/* Key Features */}
         <div>
           <h3 className="text-2xl font-semibold mb-2">Key Features & Flow</h3>
@@ -208,12 +219,10 @@ const SquashAnalytics: React.FC = () => {
           <p className="text-gray-600">
             The Squash Analytics platform delivered a scalable and efficient
             analytics solution for tracking and improving player performance.
-
             Automated data workflows streamlined match preparation and reduced
             manual analysis. Real-time dashboards enabled coaches to make
-            informed decisions while predictive insights supported
-            data-driven training strategies and long-term performance
-            improvement.
+            informed decisions while predictive insights supported data-driven
+            training strategies and long-term performance improvement.
           </p>
         </div>
       </section>
