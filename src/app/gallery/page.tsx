@@ -12,7 +12,7 @@ const moreImages = [
 
 export default function MoreGalleryPage() {
   return (
-    <section className="from-white container-fluid to-gray-50 dark:from-gray-950 dark:to-gray-900 pt-10 px-6 md:px-12">
+    <section className="from-white pb-[100px] container-fluid to-gray-50 dark:from-gray-950 dark:to-gray-900 pt-10 px-6 md:px-12">
       <div className="container">
         <div className="flex items-center justify-between gap-2 border-b border-black pb-7 mb-9 md:mb-16">
           <h2>Creative Designs</h2>
@@ -50,8 +50,7 @@ export default function MoreGalleryPage() {
           ))}
         </div>
 
-
-        <section id="gallery" >
+        <section id="gallery">
           <div className="text-center mt-16 ">
             <Link href="/gallery/more">
               <motion.button
@@ -60,11 +59,9 @@ export default function MoreGalleryPage() {
                 // className="px-8 py-3 rounded-full border border-black/20 dark:border-white/20 text-gray-900 dark:text-white font-medium hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all duration-300"
                 className="btn-primary relative overflow-hidden cursor-pointer w-50 py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-primary rounded-full group"
               >
-
                 <span className="relative z-10 text-xl font-medium text-black group-hover:text-white transition-colors duration-300">
                   Open Gallery
                 </span>
-
               </motion.button>
             </Link>
           </div>

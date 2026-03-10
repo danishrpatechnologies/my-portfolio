@@ -1,11 +1,11 @@
-import GalleryPage from "./gallery/page"
-import AboutMe from "./components/home/about-me"
-import Contact from "./components/home/contact"
-import EducationSkills from "./components/home/education-skills"
-import ExperienceSec from "./components/home/experience-sec"
-import HeroSection from "./components/home/hero-section"
-import ContactBar from "./components/home/hero-section/contact-bar"
-import LatestWork from "./components/home/latest-work"
+import GalleryPage from "./gallery/page";
+import AboutMe from "./components/home/about-me";
+import Contact from "./components/home/contact";
+import EducationSkills from "./components/home/education-skills";
+import ExperienceSec from "./components/home/experience-sec";
+import HeroSection from "./components/home/hero-section";
+import ContactBar from "./components/home/hero-section/contact-bar";
+import LatestWork from "./components/home/latest-work";
 
 const page = () => {
   return (
@@ -15,13 +15,13 @@ const page = () => {
         <ContactBar />
         <AboutMe />
         <LatestWork />
-        <ExperienceSec />
+        {/* <ExperienceSec /> */}
         <EducationSkills />
         <Contact />
         <GalleryPage />
       </main>
     </>
-  )
-}
+  );
+};
 
-export default page
+export default page;

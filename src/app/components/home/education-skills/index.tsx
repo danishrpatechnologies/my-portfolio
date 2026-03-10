@@ -27,10 +27,10 @@ const EducationSkills = () => {
         <div className="container relative z-10">
           <Image
             src={getImgPath(
-              "/images/home/education-skill/edu-skill-vector.svg"
+              "/images/home/education-skill/edu-skill-vector.svg",
             )}
             alt="vector"
-            style={{opacity:'0.3', filter:'invert(1)'}}
+            style={{ opacity: "0.3", filter: "invert(1)" }}
             width={260}
             height={170}
             className="no-print absolute top-0 left-0 transform -translate-y-1/2"
@@ -69,6 +69,7 @@ const EducationSkills = () => {
                           alt="icon"
                           width={70}
                           height={70}
+                          style={{ maxHeight: "70px" }}
                         />
                         <p className="text-black font-normal">{value?.name}</p>
                       </div>
