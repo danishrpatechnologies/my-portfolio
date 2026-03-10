@@ -28,17 +28,12 @@ const SquashAnalytics: React.FC = () => {
           </h1>
 
           <motion.h2 className="text-4xl md:text-5xl font-bold mt-2">
-            Designing a Data-Driven Performance Analytics Platform for Squash
+            {/* Designing a Data-Driven Performance Analytics Platform for Squash */}
+            Data-Driven Performance Analytics Platform
           </motion.h2>
 
           <motion.p className="text-gray-600 mt-4 text-lg leading-relaxed">
-            Squash Analytics is a comprehensive platform designed to collect,
-            process, and analyze player performance data. The system helps
-            players, coaches, and stakeholders gain meaningful insights into
-            training patterns, match strategies, and performance gaps.
-            Automated analytics workflows and predictive insights enable
-            data-driven decision-making to improve player development and match
-            outcomes.
+            Squash Analytics is a platform that collects and analyzes player performance data to provide insights into training patterns, match strategies, and performance gaps, enabling data-driven decisions for improved player development and match outcomes.
           </motion.p>
         </motion.div>
       </section>
@@ -117,7 +112,7 @@ const SquashAnalytics: React.FC = () => {
           {/* Figma Links + Image */}
           <div className="links-study">
 
-            <a
+            {/* <a
               target="_blank"
               className="mobile-btn"
               href="https://www.figma.com/design/mMPmxlRJ6pBFB47ddHeNMV/DESIGN-LIGHT-PREMIUM-PARA-DASHBOARD-NO-POWER-BI---by-Say.Valente--Community-?node-id=0-1"
@@ -126,7 +121,7 @@ const SquashAnalytics: React.FC = () => {
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" width={18} height={18} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
               </svg>
-            </a>
+            </a> */}
 
             <a
               target="_blank"
